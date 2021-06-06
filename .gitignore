@@ -1,0 +1,5 @@
+#Default ignored files
+/.idea/*
+/logs/*
+/target/*
+/tax-management-servlet.iml
