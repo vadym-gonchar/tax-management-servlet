@@ -1,0 +1,179 @@
+2021-06-06 14:15:15.868 [main] INFO  gov.taxation.command.Command - 
+2021-06-06 14:15:15.876 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","null":"trogalsk","role":null,"time":null
+2021-06-06 14:15:16.061 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:15:16.063 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"ww","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:15:16.065 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:15:16.067 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"1","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:15:16.069 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:15:16.071 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:15:16.073 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:15:16.075 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","email":"fffff","role":null,"time":null}
+2021-06-06 14:15:16.078 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:15:16.080 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"вапвпіп","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:15:16.084 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:17:07.768 [main] INFO  gov.taxation.command.Command - 
+2021-06-06 14:17:07.773 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","null":"trogalsk","role":null,"time":null
+2021-06-06 14:17:07.941 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:17:07.948 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"ww","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:17:07.951 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:17:07.964 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"1","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:17:07.967 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:17:07.971 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:17:07.974 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:17:07.977 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","email":"fffff","role":null,"time":null}
+2021-06-06 14:17:07.981 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:17:07.985 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"вапвпіп","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:17:07.988 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 14:42:12.372 [main] INFO  gov.taxation.servlet.Servlet - restaurant/app/menu
+2021-06-06 14:42:12.379 [main] INFO  gov.taxation.servlet.Servlet - restaurant/app/menu
+2021-06-06 14:42:12.380 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.servlet.Servlet$$Lambda$3/293508253
+2021-06-06 14:42:12.381 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:42:12.389 [main] INFO  gov.taxation.servlet.Servlet - restaurant/app/login
+2021-06-06 14:42:12.389 [main] INFO  gov.taxation.servlet.Servlet - restaurant/app/login
+2021-06-06 14:42:12.390 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.servlet.Servlet$$Lambda$3/293508253
+2021-06-06 14:42:12.390 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:45:41.988 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:45:41.994 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:45:42.543 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:45:42.543 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:45:42.555 [main] INFO  gov.taxation.servlet.Servlet - /login
+2021-06-06 14:45:42.555 [main] INFO  gov.taxation.servlet.Servlet - login
+2021-06-06 14:45:42.555 [main] INFO  gov.taxation.command.Command - ww 11
+2021-06-06 14:45:42.562 [main] WARN  gov.taxation.command.Command - Wrong login for user:ww
+2021-06-06 14:45:42.562 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.LoginCommand
+2021-06-06 14:45:42.562 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:48:33.024 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:48:33.032 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:48:33.595 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:48:33.596 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:48:33.608 [main] INFO  gov.taxation.servlet.Servlet - /login
+2021-06-06 14:48:33.609 [main] INFO  gov.taxation.servlet.Servlet - login
+2021-06-06 14:48:33.609 [main] INFO  gov.taxation.command.Command - ww 11
+2021-06-06 14:48:33.612 [main] WARN  gov.taxation.command.Command - Wrong login for user:ww
+2021-06-06 14:48:33.612 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.LoginCommand
+2021-06-06 14:48:33.612 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:51:02.511 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:51:02.517 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:51:03.035 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:51:03.035 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:51:19.254 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:51:19.260 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:51:19.696 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:51:19.697 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:51:35.303 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:51:35.308 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:51:35.803 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:51:35.803 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:51:52.869 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:51:52.874 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:51:53.397 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:51:53.398 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:53:23.215 [main] INFO  gov.taxation.servlet.Servlet - /login
+2021-06-06 14:53:23.221 [main] INFO  gov.taxation.servlet.Servlet - login
+2021-06-06 14:53:23.222 [main] INFO  gov.taxation.command.Command - ww 11
+2021-06-06 14:53:23.713 [main] WARN  gov.taxation.command.Command - Wrong login for user:ww
+2021-06-06 14:53:23.714 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.LoginCommand
+2021-06-06 14:53:23.715 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:53:31.124 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:53:31.130 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:53:31.598 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:53:31.599 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:53:31.604 [main] INFO  gov.taxation.servlet.Servlet - /login
+2021-06-06 14:53:31.604 [main] INFO  gov.taxation.servlet.Servlet - login
+2021-06-06 14:53:31.604 [main] INFO  gov.taxation.command.Command - ww 11
+2021-06-06 14:53:31.607 [main] WARN  gov.taxation.command.Command - Wrong login for user:ww
+2021-06-06 14:53:31.607 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.LoginCommand
+2021-06-06 14:53:31.607 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:53:58.145 [main] INFO  gov.taxation.servlet.Servlet - /login
+2021-06-06 14:53:58.152 [main] INFO  gov.taxation.servlet.Servlet - login
+2021-06-06 14:53:58.153 [main] INFO  gov.taxation.command.Command - ww 11
+2021-06-06 14:53:58.738 [main] WARN  gov.taxation.command.Command - Wrong login for user:ww
+2021-06-06 14:53:58.739 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.LoginCommand
+2021-06-06 14:53:58.741 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:58:02.544 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:58:02.552 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:58:03.112 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:58:03.112 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:58:03.117 [main] INFO  gov.taxation.servlet.Servlet - /login
+2021-06-06 14:58:03.117 [main] INFO  gov.taxation.servlet.Servlet - login
+2021-06-06 14:58:03.117 [main] INFO  gov.taxation.command.Command - ww 11
+2021-06-06 14:58:03.120 [main] WARN  gov.taxation.command.Command - Wrong login for user:ww
+2021-06-06 14:58:03.120 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.LoginCommand
+2021-06-06 14:58:03.120 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:58:39.020 [main] INFO  gov.taxation.servlet.Servlet - /home
+2021-06-06 14:58:39.026 [main] INFO  gov.taxation.servlet.Servlet - home
+2021-06-06 14:58:39.567 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.MainCommand
+2021-06-06 14:58:39.567 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:58:39.572 [main] INFO  gov.taxation.servlet.Servlet - /login
+2021-06-06 14:58:39.572 [main] INFO  gov.taxation.servlet.Servlet - login
+2021-06-06 14:58:39.572 [main] INFO  gov.taxation.command.Command - ww 11
+2021-06-06 14:58:39.575 [main] WARN  gov.taxation.command.Command - Wrong login for user:ww
+2021-06-06 14:58:39.575 [main] INFO  gov.taxation.servlet.Servlet - gov.taxation.command.LoginCommand
+2021-06-06 14:58:39.575 [main] INFO  gov.taxation.servlet.Servlet - []
+2021-06-06 14:59:57.002 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 14:59:57.148 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:00:55.817 [main] INFO  gov.taxation.command.Command - 
+2021-06-06 15:00:55.822 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","null":"trogalsk","role":null,"time":null
+2021-06-06 15:00:55.973 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:00:55.978 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"ww","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:00:55.981 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:00:55.982 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"1","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:00:55.984 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:00:55.986 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:00:55.988 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:00:55.989 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","email":"fffff","role":null,"time":null}
+2021-06-06 15:00:55.991 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:00:55.992 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"вапвпіп","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:00:55.994 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:02:48.055 [main] INFO  gov.taxation.command.Command - 
+2021-06-06 15:02:48.063 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","null":"galskfg","role":null,"time":null
+2021-06-06 15:02:48.237 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:02:48.243 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"ww","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:02:48.245 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:02:48.246 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"1","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:02:48.248 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:02:48.249 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:02:48.252 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:02:48.253 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","email":"fffff","role":null,"time":null}
+2021-06-06 15:02:48.255 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:02:48.256 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"вапвпіп","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:02:48.258 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:03:38.083 [main] INFO  gov.taxation.command.Command - 
+2021-06-06 15:03:38.089 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","null":"galskfg","role":null,"time":null
+2021-06-06 15:03:38.248 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:03:38.249 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"ww","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:03:38.251 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:03:38.253 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"1","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:03:38.255 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:03:38.256 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:03:38.259 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:03:38.260 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","email":"fffff","role":null,"time":null}
+2021-06-06 15:03:38.263 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:03:38.264 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"вапвпіп","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:03:38.267 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:11:58.730 [main] INFO  gov.taxation.command.Command - 
+2021-06-06 15:11:58.739 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","null":"galskfg","role":null,"time":null
+2021-06-06 15:11:58.966 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:11:58.968 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"ww","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:11:58.970 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:11:58.971 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"1","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:11:58.974 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:11:58.975 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:11:58.978 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:11:58.979 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","email":"fffff","role":null,"time":null}
+2021-06-06 15:11:58.982 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:11:58.983 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"вапвпіп","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:11:58.986 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:12:57.029 [main] INFO  gov.taxation.command.Command - 
+2021-06-06 15:12:57.034 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","null":"galskfg","role":null,"time":null
+2021-06-06 15:12:57.191 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:12:57.192 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"ww","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:12:57.195 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:12:57.196 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"1","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:12:57.199 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:12:57.200 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:12:57.202 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:12:57.203 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"wwfdhadfh","password":"vv","email":"fffff","role":null,"time":null}
+2021-06-06 15:12:57.205 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
+2021-06-06 15:12:57.207 [main] INFO  gov.taxation.command.Command - {"id":null,"login":"вапвпіп","password":"vv","email":"olo@gmail.com","role":null,"time":null}
+2021-06-06 15:12:57.209 [main] ERROR gov.taxation.command.Command - Cannot get json body from request input stream or cannot pars it
