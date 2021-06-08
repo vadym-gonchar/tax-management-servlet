@@ -48,7 +48,6 @@ public class ServletTest {
         when(servletConfig.getServletContext()).thenReturn(servletContext);
         when(request.getSession()).thenReturn(session);
         when(request.getSession().getServletContext()).thenReturn(servletContext);
-        when(request.getSession().getServletContext().getAttribute("loggedUsers")).thenReturn(new HashSet<String>());
 
         when(request.getRequestURI()).thenReturn("/login");
         when(request.getParameter("username")).thenReturn(PropUtil.getProperty("test.user"));
@@ -59,24 +58,4 @@ public class ServletTest {
         servlet.init(servletConfig);
         servlet.doPost(request, response);
     }
-
-    @Test
-    public void testServletMain() throws IOException, ServletException {
-        when(request.getSession()).thenReturn(session);
-        when(request.getSession().getServletContext()).thenReturn(servletContext);
-        when(request.getSession().getServletContext().getAttribute("loggedUsers")).thenReturn(new HashSet<String>());
-
-        when(request.getRequestURI()).thenReturn("/home");
-        when(request.getParameter("page")).thenReturn("1");
-        when(request.getParameter("sort")).thenReturn("id");
-        when(request.getParameter("direct")).thenReturn("ASC");
-
-        when(request.getRequestDispatcher("/WEB-INF/home.jsp")).thenReturn(dispatcher);
-
-        servlet.doGet(request, response);
-
-        verify(request, times(1)).getRequestDispatcher("/WEB-INF/home.jsp");
-        verify(dispatcher).forward(request, response);
-    }
-
 }

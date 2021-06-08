@@ -3,12 +3,14 @@ package gov.taxation.dao.impl;
 import gov.taxation.dao.DBException;
 import gov.taxation.dao.ReportDao;
 import gov.taxation.dao.entity.Report;
+import gov.taxation.dao.entity.RoleType;
 import gov.taxation.dao.mapper.ReportMapper;
 import gov.taxation.dto.Page;
 import gov.taxation.dto.converter.ReportDTOConverter;
 import gov.taxation.utils.Prop;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import gov.taxation.dao.entity.User;
 
 import java.sql.*;
 import java.util.ArrayList;
@@ -110,7 +112,7 @@ public class JDBCReportDao implements ReportDao {
      * @return Page class
      * @throws DBException if cannot find
      */
-    public Page findAllPageable(int pageNo, String sort, String direct) throws DBException {
+    public Page findAllPageable(int pageNo, String sort, String direct, User user) throws DBException {
 
         int rowsOnPage = Integer.parseInt(Prop.getProperty("pageable.page"));
         int beginNo = (pageNo - 1) * rowsOnPage;
@@ -119,12 +121,17 @@ public class JDBCReportDao implements ReportDao {
         Long totalPages;
         List<Report> reportList = new ArrayList<>();
 
-        String query = "" +
-                "select r.*, u.* from reports r" +
-                "  left join users u on r.users_id = u.id" +
-                " order by " + ("id".equals(sort) ? "r.id" : sort) + " " + direct;
+        StringBuilder query = new StringBuilder();
+        query
+                .append("select r.*, u.* from reports r")
+                .append(" left join users u on r.users_id = u.id");
 
-        try (PreparedStatement pstmt = connection.prepareStatement(query)) {
+        if (user.getRole() != RoleType.ROLE_ADMIN){
+            query.append(" where u.username = '" + user.getUserName() + "'");
+        }
+        query.append(" order by " + ("id".equals(sort) ? "r.id" : sort) + " " + direct);
+
+        try (PreparedStatement pstmt = connection.prepareStatement(query.toString())) {
 
             connection.setAutoCommit(false);
             ResultSet rs = pstmt.executeQuery();

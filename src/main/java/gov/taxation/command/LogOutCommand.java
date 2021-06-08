@@ -7,7 +7,6 @@ import javax.servlet.http.HttpSession;
 
 /**
  * Logging out functionality
- * Delete user from context loggedUsers list
  */
 public class LogOutCommand implements Command {
     @Override

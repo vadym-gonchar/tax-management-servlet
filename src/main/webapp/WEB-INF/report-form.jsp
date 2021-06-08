@@ -45,10 +45,19 @@
 
     <p class="h4 mt-4"><fmt:message key="reportForm.taxReport"/></p>
 
+    <c:if test="${sessionScope.principal.role =='ROLE_USER'}">
     <p class="h5 mb-4">
         <fmt:message key="reportForm.preparedBy"/>
         ${sessionScope.principal.firstName} ${sessionScope.principal.lastName}
     </p>
+    </c:if>
+
+    <c:if test="${sessionScope.principal.role =='ROLE_ADMIN'}">
+    <p class="h5 mb-4">
+        <fmt:message key="reportForm.preparedBy"/>
+        ${requestScope.reportUpdate.user.firstName} ${requestScope.reportUpdate.user.lastName}
+    </p>
+    </c:if>
 
     <form method="POST" class="form-horizontal mt-5" action="${reportUpdate.id != null ? '/updateDo' : '/create'}">
         <h6 class="mb-2"><fmt:message key="reportForm.reportDateLabel"/></h6>
@@ -59,7 +68,7 @@
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <fmt:message key="reportForm.reportDate" var="placeholder"/>
 
-            <input autocomplete="new-password" data-date-format="dd/mm/yyyy" id="datepicker" type="text"
+            <input autocomplete="off" data-date-format="dd/mm/yyyy" id="datepicker" type="text"
                    name="reportDate"
                    value="${reportUpdate.reportDate.format(DateTimeFormatter.ofPattern('dd/MM/yyyy'))}"
                    class="form-control"
@@ -79,7 +88,7 @@
             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
             <fmt:message key="reportForm.rate" var="placeholder"/>
 
-            <input type="text" name="rate"
+            <input type="text" name="rate" autocomplete="off"
                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*?)\..*/g, '$1');"
                    value="${reportUpdate.rate}"
                    class="form-control"

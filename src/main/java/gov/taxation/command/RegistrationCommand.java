@@ -45,6 +45,7 @@ public class RegistrationCommand implements Command {
             logger.info(user.toString());
 
             userService.create(user);
+            return "/WEB-INF/login.jsp";
         } catch (DBException e) {
             String errorMsg = Prop.getDBProperty("invalid.username");
             request.setAttribute("errorMsg", errorMsg);

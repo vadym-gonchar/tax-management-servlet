@@ -52,7 +52,6 @@ public class Servlet extends HttpServlet {
         String page = command.execute(request);
 
         logger.info(command.getClass().getName());
-        logger.info(request.getSession().getServletContext().getAttribute("loggedUsers"));
 
         if (page.contains("redirect:")) {
             response.sendRedirect(page.replace("redirect:", ""));

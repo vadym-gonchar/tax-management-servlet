@@ -7,6 +7,8 @@ import gov.taxation.dao.entity.Report;
 import gov.taxation.dto.Page;
 import gov.taxation.utils.Prop;
 
+import gov.taxation.dao.entity.User;
+
 public class ReportService {
     DaoFactory daoFactory = DaoFactory.getInstance();
 
@@ -20,9 +22,9 @@ public class ReportService {
      * @throws DBException if cannot get page
      */
     public Page getAllPageable(int pageNo, String sort,
-                               String direct) throws DBException {
+                               String direct, User user) throws DBException {
         try (ReportDao dao = daoFactory.createReportDao()) {
-            return dao.findAllPageable(pageNo, sort, direct);
+            return dao.findAllPageable(pageNo, sort, direct, user);
         }
     }
 
