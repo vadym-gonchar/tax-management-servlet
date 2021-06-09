@@ -58,7 +58,6 @@ public class MainCommand implements Command {
         request.setAttribute("totalPages", pageable.getTotalPages());
         request.setAttribute("sort", sort);
         request.setAttribute("direct", direct);
-  //      request.setAttribute("directTable", (direct.equals("ASC")) ? "DESC" : "ASC");
         request.setAttribute("statuses", ReportStatusEnum.values());
         request.setAttribute("status", status);
 
